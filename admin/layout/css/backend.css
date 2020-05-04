@@ -1,0 +1,134 @@
+/* Start main rules */
+
+body{
+    background-color: #F4F4F4;
+    font-size: 16px;
+}
+
+.asterisk{
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+    top: 8px;
+    color: #d20707;
+}
+
+/* End main rules */
+/* Start login form */
+
+.login{
+    width: 300px;
+    margin: 100px auto;
+}
+
+.login h4{
+    color: #888;
+}
+
+.login input{
+    margin-bottom: 10px; 
+}
+
+.login .form-control{
+    background-color: #EAEAEA;
+}
+
+.login .btn{
+    background-color: #008dde;
+}
+
+/* End login form */
+
+/* Start Bootstrap Edits */
+
+.navbar{
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.nav > li > a,
+.navbar-brand{
+    padding: 15px 12px;
+}
+
+.navbar-brand{
+    font-size: 1em;
+}
+
+.navbar-inverse .navbar-nav > .open>a,
+.navbar-inverse .navbar-nav > .open>a:focus,
+.navbar-inverse .navbar-nav > .open>a:hover,
+.dropdown-menu{
+    background-color: #3498db;
+}
+
+.dropdown-menu{
+    min-width: 180px;
+    padding: 0;
+    font-size: 1em;
+    border: none;
+    border-radius: 0;
+}
+
+.dropdown-menu > li > a{
+    color: #FFF;
+    padding: 10px 15px;
+}
+
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover{
+    color: #FFF;
+    background-color: #8e44ad;
+}
+
+.form-control{
+
+    position: relative;
+}
+
+/* End Bootstrap Edits */
+
+/* Start members page*/
+
+h1{
+    font-size: 55px;
+    margin: 40px 0;
+    font-weight: bold;
+    color: #666;
+}
+
+.show-pass{
+    position: absolute;
+    top: 6px;
+    right: -30px;
+}
+
+.main-table{
+    -webkit-box-shadow: 0 3px 10px #CCC;
+    -moz-box-shadow: 0 3px 10px #CCC;
+    box-shadow: 0 3px 10px #CCC;
+}
+
+.main-table td{
+    background-color: #fff;
+    vertical-align: middle !important;
+}
+
+.main-table tr:first-child td{ /*Using tr:first-child td is the same as using thead*/
+    background-color: #333;
+    color: #fff;
+}
+
+.main-table .btn{
+    padding: 3px 10px;
+}
+
+/* I added this to perfectionize the Edit-Delete icons xd*/
+.main-table .fa{
+    position: relative;
+    right: 3px;
+}
+
+
+
+/* End members page */
